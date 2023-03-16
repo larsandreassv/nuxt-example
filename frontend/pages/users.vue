@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1 class="green">Users</h1>
+    <h1 class="text-green">Users</h1>
     <p>This is the users page</p>
-    <span v-for="user in users" v-bind:key="user.id"> {{ user.name }} </span>
+    <span class="flex flex-col" v-for="user in users" v-bind:key="user.id"> {{ user.name }} </span>
   </div>
 </template>
 
