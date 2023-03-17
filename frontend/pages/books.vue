@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-xl text-green-900">Books</h1>
+    <h1 class="text-xl font-bold text-green-900">Books</h1>
     <span class="flex flex-col" v-for="book in books" v-bind:key="book.id"> {{ book.value }}</span>
   </div>
 </template>
