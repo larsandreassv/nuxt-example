@@ -3,7 +3,7 @@
     <h1 class="text-xl text-green-900">Users</h1>
     <p>This is the users page</p>
     <h2 class="text-blue-900">List of users:</h2>
-    <span class="flex flex-col text-red-700" v-for="user in users" v-bind:key="user.id"> {{ user.name }} </span>
+    <span class="flex flex-col" v-for="user in users" v-bind:key="user.id"> {{ user.name }} </span>
   </div>
 </template>
 
