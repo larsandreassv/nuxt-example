@@ -17,7 +17,7 @@ const users = ref([
   },
   {
     id: 1,
-    name: "Adam",
+    name: "Ole",
   },
   {
     id: 1,
